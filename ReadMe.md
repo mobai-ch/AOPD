@@ -168,5 +168,7 @@ Python package requirements
 
 #### Hint
 You may be confused as to why the trip time reduction of vehicle is even smaller. This is because the paper introduce a more regular situation but we have considered more complicated situations in our experiments.
+
 For a system without pick-up/drop-off points that does not consider the differences between vehicule and pedestrian road networks, they map the pedestrian location onto the nearest vehicular road point. But in the real situation, pedestrians are going to walk to pick-up point and get off from the drop-off point anyway.
-This leads to a smaller driver trip reduction rate than the passenger trip reduction rate instead, and the actual situation is more complex unfavorable to our experimental results, but we finally adopted the scheme in our experiments in order to maintain consistency with the real world.
+
+This leads to a smaller driver trip reduction rate than the passenger trip reduction rate instead, and the actual situation is more complex and unfavorable to our experimental results, but we finally adopted the scheme in our experiments in order to maintain consistency with the real world.
